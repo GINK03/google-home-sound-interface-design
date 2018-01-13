@@ -1,0 +1,3 @@
+[submodule "google-cloud-function-pythonic"]
+	path = google-cloud-function-pythonic
+	url = https://github.com/GINK03/google-cloud-function-pythonic
