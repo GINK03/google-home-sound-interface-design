@@ -56,3 +56,16 @@ $ node example.js
 $ curl -X GET localhost:8091/google-home-notifier?text=Hello+Google+Home
 ```
 [![Vimeo](https://i.vimeocdn.com/video/677206429_100x75.jpg)](https://vimeo.com/250978500)
+
+#### 任意の言葉をpythonのrequestsモジュールで話させる  
+GETメソッドでデータを送る以外にも、POSTでデータを送信して話させることができます  
+```python
+requests.post("http://192.168.14.31:8091/google-home-notifier", data={'text': "ここに何か話させるテキストを入れる"})
+```
+
+#### 例:銀行の預金残高を定期的に話させる
+Visa Bebitカードというものがありまして、その場ですぐ引き落とさせるので便利なので、ネットでの買い物や食事などに利用しているのですが、おこずかい用に口座を利用しているので、あまり大金を入れていないので枯渇しがちです。  
+
+数回アナウンスシステムを組みました  
+
+Seleniumで自動で銀行にログインして、口座の金額を取得して話させます  
