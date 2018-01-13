@@ -69,3 +69,4 @@ Visa Bebitカードというものがありまして、その場ですぐ引き�
 数回アナウンスシステムを組みました  
 
 Seleniumで自動で銀行にログインして、口座の金額を取得して話させます  
+[![Vimeo](https://i.vimeocdn.com/video/677209382_100x75.jpg)](https://vimeo.com/250980847)
