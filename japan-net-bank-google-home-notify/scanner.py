@@ -52,3 +52,4 @@ except Exception as ex:
   print(ex)
   ...
 driver.close()
+os.system('pkill chrome')

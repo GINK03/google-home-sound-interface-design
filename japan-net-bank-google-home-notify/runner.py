@@ -3,4 +3,4 @@ import os
 
 while True:
   os.system('python3 scanner.py ')  
-  time.sleep(300)
+  time.sleep(3600)
