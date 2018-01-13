@@ -26,8 +26,6 @@ $ npm install
 
 $ vim example.js # 後述のコードの箇所を変更します
 ...
-
-
 ```
 
 デフォルトでは日本語が喋ることができませんので、この[google-home-notiferの作者様の、example](https://github.com/noelportugal/google-home-notifier)のコードをこの様に編集する必要があります。  
@@ -46,3 +44,14 @@ $ vim example.js # 後述のコードの箇所を変更します
  31   if (text){
 ```
 
+#### 実行の確認
+実際に話させてみます  
+nodejsでexample.jsを起動します  
+```console
+$ node example.js
+```
+ローカルホストにクエリを送ります  
+(必要ならば、IPアドレスをnodeを起動したサーバに記します)
+```console
+$ curl -X GET localhost:8091/google-home-notifier?text=Hello+Google+Home
+```
