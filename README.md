@@ -55,4 +55,4 @@ $ node example.js
 ```console
 $ curl -X GET localhost:8091/google-home-notifier?text=Hello+Google+Home
 ```
-![https://i.vimeocdn.com/video/677206429_100x75.jpg](vimeo.com/250978500)
+[![Vimeo](https://i.vimeocdn.com/video/677206429_100x75.jpg)](vimeo.com/250978500)
