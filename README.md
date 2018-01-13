@@ -30,7 +30,7 @@ $ vim example.js # 後述のコードの箇所を変更します
 
 ```
 
-デフォルトでは日本語が喋ることができませんので、こ　[のgoogle-home-notiferの作者様の、example](https://github.com/noelportugal/google-home-notifier)のコードをこの様に編集する必要があります。  
+デフォルトでは日本語が喋ることができませんので、この[google-home-notiferの作者様の、example](https://github.com/noelportugal/google-home-notifier)のコードをこの様に編集する必要があります。  
 
 ```python
   8   var deviceName = '部屋1'; // Google Homeのセットアップに使用した名前を設定します
