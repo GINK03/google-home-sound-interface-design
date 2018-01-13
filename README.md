@@ -84,4 +84,8 @@ AWSだとリソース監視にCloud Watchが使えるのでbotoなどの便利�
 [![Vimeo](https://i.vimeocdn.com/video/677210785_100x75.jpg)](https://vimeo.com/250981887)
 
 ## 音声によるグーグルホームから操作する
+OutputができればInputをできるはずです。  
 
+この二つが揃うと、コンピュータのインターフェースが全て揃うのでなんでもできます  
+
+いろいろやり方がありますが、IFTTTと連携させ、IFTTTからweb hookを利用することで、任意のAWS LambdaやGCPのCloud Functionやオンプレのサーバにつなぐことができます  
