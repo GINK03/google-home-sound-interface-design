@@ -55,5 +55,4 @@ $ node example.js
 ```console
 $ curl -X GET localhost:8091/google-home-notifier?text=Hello+Google+Home
 ```
-<iframe allowFullScreen frameborder="0" height="564" mozallowfullscreen src="https://player.vimeo.com/video/250978500" webkitAllowFullScreen width="640">
-</iframe>
+![https://i.vimeocdn.com/video/677206429_100x75.jpg](vimeo.com/250978500)
